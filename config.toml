@@ -1,0 +1,25 @@
+# The URL the site will be built for
+base_url = "https://neelabalan.dev"
+
+compile_sass = true
+title = "Neelabalan"
+description = ""
+generate_feed = true
+
+taxonomies = [
+    {name = "tags", feed = true},
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "ir-white"
+
+[extra]
+author = "Neelabalan N"
+even_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/about", name = "About"},
+]
+
+even_title = "Neelabalan"
