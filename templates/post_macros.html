@@ -4,7 +4,7 @@
             <a href="{{ page.permalink }}">{{ page.title }}</a>
         </h1>
         <div class="post__meta">
-            <span class="post__time">{{ page.date | date(format="%F") }}</span>
+            <span class="post__time">{{ page.date | date(format="%e %B %Y") }}</span>
         </div>
     </header>
 {% endmacro title %}
