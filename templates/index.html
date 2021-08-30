@@ -87,13 +87,13 @@
                         <div class="posts">
                             {% for page in paginator.pages %}
                                 <article class="post">
-                                    {{ post_macros::title(page=page) }}
-                                    <div class="post__summary">
+                                    {{ post_macros::indextitle(page=page) }}
+                                    <!-- <div class="post__summary">
                                         {{ page.summary | safe }}
-                                    </div>
-                                    <div class="read-more">
+                                    </div> -->
+                                    <!-- <div class="read-more">
                                         <a href="{{ page.permalink }}">Read more...</a>
-                                    </div>
+                                    </div> -->
                                 </article>
                             {% endfor %}
                         </div>

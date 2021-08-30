@@ -5,7 +5,7 @@
 
 {% block content %}
 
-{% if page.toc %}
+<!-- {% if page.toc %}
 <div class="post-toc" id="post-toc">
     <h2 class="post-toc-title">Contents</h2>
     <div class="post-toc-content always-active">
@@ -29,7 +29,7 @@
         </nav>
     </div>
 </div>
-{% endif %}
+{% endif %} -->
 
 <article class="post">
     {{ post_macros::title(page=page) }}
@@ -49,23 +49,6 @@
                     {% endfor %}
                 </div>
             {% endif %}
-            {% if page.earlier or page.later or page.lighter or page.heavier %}
-                <div class="post-nav">
-                    {% if page.earlier %}
-                        <a class="previous" href="{{ page.earlier.permalink }}">‹ {{ page.earlier.title }}</a>
-                    {% endif %}
-                    {% if page.later %}
-                        <a class="next" href="{{ page.later.permalink }}">{{ page.later.title }} ›</a>
-                    {% endif %}
-                    {% if page.lighter %}
-                        <a class="previous" href="{{ page.lighter.permalink }}">‹ {{ page.lighter.title }}</a>
-                    {% endif %}
-                    {% if page.heavier %}
-                        <a class="next" href="{{ page.heavier.permalink }}">{{ page.heavier.title }} ›</a>
-                    {% endif %}
-                </div>
-            {% endif %}
-
         {% endblock page_footer %}
 
     </div>
