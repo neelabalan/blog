@@ -9,7 +9,7 @@ There are multiple options out there to run scheduled or recurring jobs in pytho
 
 <!-- more -->
 
-[![workflow.png](https://i.postimg.cc/d0HkwKn4/workflow.png)](https://postimg.cc/wtNTQZCm)
+<img src="https://i.postimg.cc/d0HkwKn4/workflow.png" width="70%" style="margin:auto; display:block;">
 
 I could go with either [schedule](https://schedule.readthedocs.io/en/stable/) or [apscheduler](https://apscheduler.readthedocs.io/) for my project. I wanted to try my hands on apscheduler because I saw a lot of features it had like 
 - Job stores to store the scheduled jobs so the next job executes even when the process is restarted
@@ -20,7 +20,8 @@ I could go with either [schedule](https://schedule.readthedocs.io/en/stable/) or
 I've used some of these features in my side projects but not all in *keystrokestat*
 
 
-[**code snippet**](https://github.com/neelabalan/keystrokestat/blob/master/script/keystroke.py)
+## [code snippet](https://github.com/neelabalan/keystrokestat/blob/master/script/keystroke.py)
+
 ```python
 from apscheduler.schedulers.background import BackgroundScheduler
 scheduler = BackgroundScheduler(daemon=True)
