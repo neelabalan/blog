@@ -4,7 +4,7 @@ path = "about"
 template = "about.html"
 +++
 
-<img src=https://i.postimg.cc/wBm1cBQb/profile-modified.png width="350px" style="margin:auto; display:block;">
+<img src=https://i.postimg.cc/wBm1cBQb/profile-modified.png width="200px" style="margin:auto; display:block;">
 
 <br>
 

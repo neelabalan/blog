@@ -288,16 +288,17 @@ main {
 }
 
 .icons {
-		white-space: nowrap;
-		display: block;
-		margin: auto;
-		width: 44px;
-		height: 44px;
-		display: block;
-		padding: 10px 280px 40px 0px;
+		margin: 0 auto;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		
+		// text-align: center;
 
 	}
 	.icons svg {
+		width: 44px;
+		height: 44px;
 		padding: .50em;
 	}
 	.icons a:hover svg{
