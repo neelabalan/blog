@@ -1,11 +1,11 @@
 html {
-  font-size: 16px;
+  font-size: 18px;
   box-sizing: border-box;
 }
 
 body {
   line-height: 1.5;
-  color: #cccccc;
+  color: #000000;
   font-family: $decoration-font-family;
   background: $secondary-colour; 
   border-top: 3px solid $main-colour;
@@ -46,7 +46,7 @@ pre {
 }
 
 pre, code {
-  font-size: 90%;
+  font-size: 14px;
   overflow: auto;
   font-family: $code-font-family;
   margin-bottom: 0;
@@ -57,7 +57,8 @@ pre > code {
   display: block;
   border: none;
   font-style: normal;
-  font-size: 0.9rem;
+//   font-size: 0.7rem;
+  font-size: 14px;
 }
 
 iframe {

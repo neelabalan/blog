@@ -11,8 +11,9 @@ taxonomies = [
 ]
 
 [markdown]
+extra_syntaxes_and_themes = ["static/"]
 highlight_code = true
-highlight_theme = "charcoal"
+highlight_theme = "ir-extended"
 
 [extra]
 author = "Neelabalan N"

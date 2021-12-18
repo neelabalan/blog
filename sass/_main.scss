@@ -26,11 +26,11 @@ main {
   .post {
     padding: 1.5rem 0;
     .post__title {
-      font-size: 15px;
+      font-size: 20px;
       font-family: $decoration-font-family;
 
       a {
-        color: #d3d3d3;
+        color: #000000;
       }
     }
 
@@ -41,11 +41,11 @@ main {
     code {
       padding: 0px 5px 5px;
       color: $code-colour;
-      background: #0a0a0a;
+      background: #e4e4e4;
     }
 
     p > a {
-      color: $main-colour;
+      color: #00275e;
 
       &:hover {
         border-bottom: 1px solid $main-colour;
@@ -56,8 +56,8 @@ main {
       margin: 2em 0;
       padding: 10px 20px;
       position: relative;
-      color: rgba(#888888, 0.8);
-      background-color: #0a0a0a; 
+      color: rgba(#000000, 0.8);
+      background-color: #cccccc; 
       border-left: 3px solid rgba(0, 0, 0, 0.3);
       box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
 
@@ -140,12 +140,12 @@ main {
 
     &__meta {
       font-size: 14px;
-      color: #8a8a8a;
+      color: #000000;
     }
 
     &__date {
-      font-size: 14px;
-      color: #8a8a8a;
+      font-size: 16px;
+      color: #000000;
 	  float: right;
     }
 
@@ -266,7 +266,7 @@ main {
 
     &__time {
       margin-right: 10px;
-      color: #cccccc;
+      color: #000000;
     }
 
     &__title a {

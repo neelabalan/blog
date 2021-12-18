@@ -9,13 +9,13 @@ $theme-color-map: (
 );
 
 // TODO: allow to change that
-$main-colour: #1cbfff;
-$secondary-colour: #000000;
+$main-colour: #000000;
+$secondary-colour: #dadada;
 $body-width: 800px;
 $mobile-navbar-height: 50px !default;
-$code-colour: #c0c0c0;
+$code-colour: #000000;
 $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
-$decoration-font-family: monospace;
+$decoration-font-family: Athelas, STHeiti, Microsoft Yahei, serif;
 
 @mixin min-screen($min-width: $body-width) {
    @media screen and (min-width: $min-width) {
